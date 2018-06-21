@@ -54,7 +54,7 @@ public class TokenCMD implements CommandExecutor {
                                 t.sendMessage(Main.getInstance().getUtils().translate(Main.getInstance().getConfig().getString("prefix") + " " + Main.getInstance().getUtils().translate(Main.getInstance().getConfig().getString("Messages.tokens-received").replaceAll("%tokens", Double.toString(amount)).replaceAll("%receiver", p.getName()))));
                                 }
                             } else {
-                            p.sendMessage("no");
+                            p.sendMessage(Main.getInstance().getUtils().translate(Main.getInstance().getConfig().getString("prefix") + " " + Main.getInstance().getUtils().translate(Main.getInstance().getConfig().getString("Messages.must-be-int"))));
                         }
                             break;
                 }
