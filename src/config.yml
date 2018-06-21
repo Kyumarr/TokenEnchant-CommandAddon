@@ -1,0 +1,20 @@
+ ############################################################
+ #  __  __                                                  #
+ # |  \/  |   ___   ___   ___    __ _    __ _    ___   ___  #
+ # | |\/| |  / _ \ / __| / __|  / _` |  / _` |  / _ \ / __| #
+ # | |  | | |  __/ \__ \ \__ \ | (_| | | (_| | |  __/ \__ \ #
+ # |_|  |_|  \___| |___/ |___/  \__,_|  \__, |  \___| |___/ #
+ #                                      |___/               #
+ ############################################################
+
+ prefix: "&8[&6TEAddon&8]"
+ Messages:
+   no-player: "&cYou are not a player."
+   error: "&cYou can't send tokens to yourself"
+   no-permissions: "&cNo permissions"
+   player-not-found: "&cPlayer not found."
+   sended: "&7You sended &a%tokens&7 tokens to &c%target"
+   received: "&7You received &a%tokens&7 tokens from &c%receiver"
+   insufficient-tokens: "&cInsufficient found"
+   usage:
+     - 'Usages'
