@@ -1,0 +1,8 @@
+name: TEAddon
+main: me.kyumar.teaddon.Main
+version: 1.0
+author: Kyumar
+depend: [TokenEnchant]
+commands:
+  tokens:
+    description: main cmd
